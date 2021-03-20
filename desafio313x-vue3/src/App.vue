@@ -3,10 +3,10 @@
     <router-link to="/"> Home </router-link>
     <router-link to="/anos70">Anos 70 </router-link>
     <router-link to="/anos80">Anos 80 </router-link>
-    <img
+    <!-- <img
       class="imgCenter"
       src="https://media.giphy.com/media/Y3RpfxT7T7QU8/giphy.gif"
-    />
+    /> -->
     <router-link to="/anos90">Anos 90 </router-link>
     <router-link to="/anos00">Anos 00 </router-link>
     <router-link to="/last">Last</router-link>
@@ -50,7 +50,7 @@ body {
 .content {
   margin: 0 auto;
   position: relative;
-  background: black;
+  background: #070211;
   padding-top: 2em;
   text-align: center;
 }
@@ -64,12 +64,12 @@ a {
 }
 
 a:hover {
-  color: #3498db;
+  color: #4b019a;
   font-size: 18px;
 }
 
 a.router-link-active {
-  border-bottom: 2px solid #3498db;
+  border-bottom: 2px solid #4b019a;
   animation: blinkingText 2s linear infinite;
   font-size: 20px;
 }
