@@ -31,6 +31,12 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
+}
+@media only screen and (max-width: 1800px) {
+  body {
+    overflow: visible;
+  }
 }
 
 #app {
@@ -58,7 +64,7 @@ body {
 a {
   font-weight: bold;
   color: white;
-  text-decoration: none;
+  text-decoration: none !important;
   margin-right: 4.5em;
   margin-left: 4.5em;
 }

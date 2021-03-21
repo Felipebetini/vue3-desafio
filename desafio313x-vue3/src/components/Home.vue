@@ -52,8 +52,6 @@
   -webkit-animation: Animatedgradient 10s ease infinite;
 }
 
-.divBig:hover {
-}
 @-webkit-keyframes gradient {
   0% {
     background-position: 0% 50%;

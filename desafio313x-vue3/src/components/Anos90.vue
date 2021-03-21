@@ -1,14 +1,22 @@
 <template>
-  <div class="page">
-    <h1>Anos 90</h1>
-    <p>aduoadoisa dsahudahsd ahshdhsa</p>
-    <h2>dhauishsadi</h2>
-    <p>dgyagdasgdgyasd</p>
+  <div class="main-content">
+    <button @click="show = !show">Toggle</button>
+    <transition
+      enter-active-class="animated fadeIn zoomIn"
+      leave-active-class="animated fadeOut zoomOut"
+    >
+      <img v-if="show" src="../assets/logo.png" />
+    </transition>
   </div>
 </template>
-<style scoped>
-.page {
-  background: blueviolet;
-  margin-top: 20px;
-}
-</style>
+
+<script>
+export default {
+  data() {
+    return {
+      show: true,
+    };
+  },
+};
+</script>
+<style scoped></style>

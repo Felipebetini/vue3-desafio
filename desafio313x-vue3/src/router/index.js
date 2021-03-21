@@ -13,24 +13,24 @@ const router = createRouter({
       path: "/",
       component: Home,
       meta: {
-        enterClass: "animate__animated animate__fadeIn",
-        leaveClass: "animate__animated animate__fadeOutRight",
+        enterClass: "animate__animated animate__fadeInLeft",
+        leaveClass: "animate__animated animate__fadeOutLeft",
       },
     },
     {
       path: "/anos70",
       component: Anos70,
       meta: {
-        enterClass: "animate__animated animate__fadeInRight",
-        leaveClass: "animate__animated animate__fadeOutLeft",
+        enterClass: "animate__animated animate__fadeInLeft",
+        leaveClass: "animate__animated animate__fadeOutRight",
       },
     },
     {
       path: "/anos80",
       component: Anos80,
       meta: {
-        enterClass: "animate__animated animate__bounceIn",
-        leaveClass: "animate__animated animate__bounceOut",
+        enterClass: "animate__animated animate__fadeInDown",
+        leaveClass: "animate__animated animate__fadeInUp",
       },
     },
     {
