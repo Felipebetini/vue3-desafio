@@ -1,16 +1,14 @@
 <template>
+  <!--Menu principal com as navs-->
   <div class="content container-fluid">
     <router-link to="/"> Home </router-link>
+    <!--cada router esta vinculado com o animated.css no arquivo index.js-->
     <router-link to="/anos70">Anos 70 </router-link>
     <router-link to="/anos80">Anos 80 </router-link>
-    <!-- <img
-      class="imgCenter"
-      src="https://media.giphy.com/media/Y3RpfxT7T7QU8/giphy.gif"
-    /> -->
     <router-link to="/anos90">Anos 90 </router-link>
     <router-link to="/anos00">Anos 00 </router-link>
-    <router-link to="/last">Last</router-link>
-
+    <router-link to="/last">Hoje</router-link>
+    <!--router exportado pelo array de objetos do router passando para o "component" com seu respectivo nome e animate.css -->
     <router-view v-slot="{ Component, route }">
       <transition
         :enter-active-class="route.meta.enterClass"
@@ -24,9 +22,6 @@
 </template>
 
 <style>
-* {
-  transition: all 0.3s ease-out;
-}
 body {
   margin: 0;
   padding: 0;

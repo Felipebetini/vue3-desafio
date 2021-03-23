@@ -13,8 +13,8 @@ const router = createRouter({
       path: "/",
       component: Home,
       meta: {
-        enterClass: "animate__animated animate__fadeInLeft",
-        leaveClass: "animate__animated animate__fadeOutLeft",
+        enterClass: "animate__animated animate__fadeUpBig",
+        leaveClass: "animate__animated animate__fadeOut",
       },
     },
     {
@@ -22,7 +22,7 @@ const router = createRouter({
       component: Anos70,
       meta: {
         enterClass: "animate__animated animate__fadeInLeft",
-        leaveClass: "animate__animated animate__fadeOutRight",
+        leaveClass: "animate__animated animate__fadeOut",
       },
     },
     {
@@ -30,7 +30,7 @@ const router = createRouter({
       component: Anos80,
       meta: {
         enterClass: "animate__animated animate__fadeInDown",
-        leaveClass: "animate__animated animate__fadeInUp",
+        leaveClass: "animate__animated animate__fadeOut",
       },
     },
     {
@@ -45,16 +45,16 @@ const router = createRouter({
       path: "/anos00",
       component: Anos00,
       meta: {
-        enterClass: "animate__animated animate__fadeInLeft",
-        leaveClass: "animate__animated animate__fadeInRight",
+        enterClass: "animate__animated animate__fadeIn",
+        leaveClass: "animate__animated animate__fadeOut",
       },
     },
     {
       path: "/last",
       component: Last,
       meta: {
-        enterClass: "animate__animated animate__fadeInLeft",
-        leaveClass: "animate__animated animate__fadeInRight",
+        enterClass: "animate__animated animate__fadeIn",
+        leaveClass: "animate__animated animate__fadeOut",
       },
     },
   ],

@@ -1,41 +1,61 @@
 <template>
   <div class="divBig container-fluid">
-    <div class="card1">
+    <div class="card1" @click="show1 = !show1">
       <h3>A historia da Ciber segurança</h3>
       <p class="small">
         Aqui voltamos ao passado e falamos sobre algumas das violações de
         segurança para entendermos o futuro da segurança cibernetica.
       </p>
       <div class="go-corner">
-        <div class="go-arrow"></div>
+        <div class="go-arrow">→</div>
       </div>
     </div>
+    <transition
+      enter-active-class="animate__animated animate__fadeInLeft"
+      leave-active-class="animate__animated animate__fadeInRight"
+    >
+      <div class="card2" v-if="show1" @click="show2 = !show2">
+        <h3>Um problema atual?</h3>
+        <p class="small">
+          Você está certo em pensar na segurança cibernética como uma questão
+          bastante moderna, é quase impossível não estar ciente de sua
+          importância.
+        </p>
+        <div class="go-corner">
+          <div class="go-arrow">←</div>
+        </div>
+      </div>
+    </transition>
 
-    <div class="card2">
-      <h3>A historia da Ciber segurança</h3>
-      <p class="small">
-        Você está certo em pensar na segurança cibernética como uma questão
-        bastante moderna, é quase impossível não estar ciente de sua
-        importância.
-      </p>
-      <div class="go-corner">
-        <div class="go-arrow"></div>
+    <transition
+      enter-active-class="animate__animated animate__fadeInLeft"
+      leave-active-class="animate__animated animate__fadeInRight"
+    >
+      <div class="card3" v-if="show2">
+        <h3>Não tanto quando imaginas!</h3>
+        <p class="small">
+          Mas voce pode se surpreender com a extensão da história da segurança
+          cibernética e do hacking.
+        </p>
+        <div class="dimmer"></div>
+        <div class="go-corner">
+          <div class="go-arrow"></div>
+        </div>
       </div>
-    </div>
-
-    <div class="card3">
-      <h3>This is option 3</h3>
-      <p class="small">
-        Mas voce pode se surpreender com a extensão da história da segurança
-        cibernética e do hacking.
-      </p>
-      <div class="dimmer"></div>
-      <div class="go-corner">
-        <div class="go-arrow"></div>
-      </div>
-    </div>
+    </transition>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      show1: false,
+      show2: false,
+    };
+  },
+};
+</script>
 
 <style scoped>
 * {

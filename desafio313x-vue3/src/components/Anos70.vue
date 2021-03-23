@@ -167,6 +167,13 @@ h1 {
   text-align: center;
   font-size: 2vh;
   font-family: "Quicksand", sans-serif;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    45deg,
+    rgba(59, 2, 120, 1) 50%,
+    rgba(75, 1, 154, 1) 100%
+  );
+  color: white;
 }
 
 .arrowDown {
