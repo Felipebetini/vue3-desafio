@@ -17,12 +17,12 @@ Tela Home:
 Nota2: teve um problema de demora de carregamento entre a tela home, e as outras abas, e vice-versa, não consegui resolver por enquanto. Porém, entre as outras abas estão perfeitos.
 
 Anos 70:
-O “<h1>"fiz com paletas de cores da época, com duas imagens, onde quando clicado aparece informações sobre o começo da história, bem básico também, ainda estava pegando o jeito.
+O “h1"fiz com paletas de cores da época, com duas imagens, onde quando clicado aparece informações sobre o começo da história, bem básico também, ainda estava pegando o jeito.
 
 Nota3: aqui percebi que tive um problema com as animações em css, que não estavam sendo lidas. Ainda estou pensando no que poderia ser também.
 
 Anos80:
-Aqui me dediquei bastante, tinha a ideia de fazer a animação do “<h1>", mas como disse anteriormente tive algum conflito com meu css que nçao consegui, porém, arranjei outro jeito de dar um efeito parecido, adicionando camadas, e um text-shadow, para parecer um letreiro neon.
+Aqui me dediquei bastante, tinha a ideia de fazer a animação do “h1", mas como disse anteriormente tive algum conflito com meu css que nçao consegui, porém, arranjei outro jeito de dar um efeito parecido, adicionando camadas, e um text-shadow, para parecer um letreiro neon.
 Com 3 cards dinâmicos ficou bem bonita a pagina.
 
 Anos90:
