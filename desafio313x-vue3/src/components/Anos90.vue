@@ -37,7 +37,7 @@
     >
       <div class="yellow" v-if="show2" @click="show3 = !show3">
         <div class="blackDivYellow">
-          <h1>Ah! Os anos 90</h1>
+          <h1>SSL</h1>
           <p>
             A versão SSL 2.0 que foi lançada em '95, foi um alicerce para o
             Hypertext Transfer Protocol Secure, mais conhecido como HTTPS, que
@@ -55,15 +55,15 @@
     >
       <div class="dots" v-if="show3">
         <div class="blackDivDot">
-          <h1>Ah! Os anos 90</h1>
+          <h1>Windows</h1>
           <p>
-            Com o lançamento do Windows 98 em 19999, a cibersegurança,
-            juntamente com a computação casual do dia-a-dia, se tornou popular.
-            O grande aumento no uso de computadores com esse sistema operacional
-            abriu o caminho para um host de software de segurança. O Windows
-            lançou uma série de partches para melhorar a proteção de seu
-            software enquanto a produção de software anti-hacking para
-            computadores domésticos florescia.
+            Com o lançamento do Windows 98 em 1999, a cibersegurança, juntamente
+            com a computação casual do dia-a-dia, se tornou popular. O grande
+            aumento no uso de computadores com esse sistema operacional abriu o
+            caminho para o desenvolvimento de softwares de segurança. O Windows
+            lançou uma série de "patches" para melhorar a proteção de seu
+            software enquanto a produção de anti-hacking para computadores
+            domésticos florescia.
           </p>
         </div>
       </div>

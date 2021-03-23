@@ -31,12 +31,13 @@
             ataques dos soviéticos, o Departamento de Defesa dos Estados Unidos
             (ARPA - Advanced Research Projects Agency) criou um sistema de
             compartilhamento de informações entre pessoas distantes
-            geograficamente, a fim de facilitar as estratégias de guerra.
+            geograficamente, de modo a facilitar as estratégias de guerra.
             <br />Nesse momento, surge o protótipo da primeira rede de internet,
             a Arpanet (Advanced Research Projects Agency Network). Assim, no dia
             29 de outubro de 1969 foi estabelecida a primeira conexão entre a
             Universidade da Califórnia e o Instituto de Pesquisa de Stanford.
-            Foi um momento histórico, uma vez que o primeiro e-mail foi enviado
+            Foi um momento histórico, visto que o primeiro e-mail foi enviado.
+
             <span class="arrowDown">&#8595;</span>
           </div>
         </div>
@@ -72,14 +73,13 @@
       <div class="col">
         <div class="collapse multi-collapse" id="creeper">
           <div class="card card-body">
-            Nossa história começa em 1971, quando a mensagem "Eu sou o
-            rastejador, pegue-me se puder(I'm the creeper, cath me if you can)",
-            gerou vários usuários da ARPANET, uma das primeiras formas de
-            internet.<br />
-            Este computador usado foi revolucionário na época, saltando entre
-            computadores e exibindo mensagens. Este worm não tinha nenhuma
-            intenção maliciosa, mas com certeza abriu caminho para uma tendência
-            limitada que explorava as vulnerabilidades da Internet. futuro.
+            Nossa história começa em 1971, quando a mensagem "I'm the creeper,
+            cacth me if you can", passou por vários usuários da ARPANET, uma das
+            primeiras formas de internet.<br />
+            Este "worm" usado foi revolucionário na época, saltando entre
+            computadores e exibindo as mensagens. Ele não tinha nenhuma intenção
+            maliciosa, mas com certeza abriu caminho para uma tendência limitada
+            que explorava as vulnerabilidades da Internet.
           </div>
         </div>
       </div>

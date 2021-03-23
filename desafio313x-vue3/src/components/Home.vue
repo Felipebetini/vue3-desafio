@@ -1,7 +1,7 @@
 <template>
   <div class="divBig container-fluid">
     <div class="card1" @click="show1 = !show1">
-      <h3>A historia da Ciber segurança</h3>
+      <h1 class="headCard">A história da Ciber segurança.</h1>
       <p class="small">
         Aqui voltamos ao passado e falamos sobre algumas das violações de
         segurança para entendermos o futuro da segurança cibernetica.
@@ -15,7 +15,7 @@
       leave-active-class="animate__animated animate__fadeInRight"
     >
       <div class="card2" v-if="show1" @click="show2 = !show2">
-        <h3>Um problema atual?</h3>
+        <h1 class="headCard">Um problema atual?</h1>
         <p class="small">
           Você está certo em pensar na segurança cibernética como uma questão
           bastante moderna, é quase impossível não estar ciente de sua
@@ -32,7 +32,7 @@
       leave-active-class="animate__animated animate__fadeInRight"
     >
       <div class="card3" v-if="show2">
-        <h3>Não tanto quando imaginas!</h3>
+        <h1 class="headCard">Não tanto quanto imaginas!</h1>
         <p class="small">
           Mas voce pode se surpreender com a extensão da história da segurança
           cibernética e do hacking.
@@ -98,9 +98,8 @@ export default {
   text-align: left;
 }
 
-h3 {
+.headCard {
   color: #262626;
-  font-size: 17px;
   line-height: 24px;
   font-weight: 700;
   margin-bottom: 4px;
@@ -113,7 +112,8 @@ p {
   color: #666666;
 }
 p.small {
-  font-size: 14px;
+  font-size: 2.5vh;
+  margin-top: 4vh;
 }
 
 .go-corner {
@@ -147,7 +147,6 @@ p.small {
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
-  margin-bottom: 14vh;
 }
 .card1:before {
   content: "";
@@ -171,7 +170,7 @@ p.small {
   transition: all 0.3s ease-out;
   color: rgba(255, 255, 255, 0.8);
 }
-.card1:hover h3 {
+.card1:hover .headCard {
   transition: all 0.3s ease-out;
   color: #ffffff;
 }
@@ -210,7 +209,7 @@ p.small {
   transition: all 0.3s ease-out;
   color: rgba(255, 255, 255, 0.8);
 }
-.card2:hover h3 {
+.card2:hover .headCard {
   transition: all 0.3s ease-out;
   color: #ffffff;
 }

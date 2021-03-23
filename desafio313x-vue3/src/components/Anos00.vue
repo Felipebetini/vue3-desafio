@@ -16,12 +16,11 @@
           <h1>I love you</h1>
           <p>
             O amor estava no ar em 2000, quando mais de 10 milhões de usuários
-            do Windows foram infectados com o bug "Eu te amo". O worm de
-            disseminação mais rápida da história do computador naquela época.
-            Esse ataque generalizado por e-mail enviou um anexo que, quando
-            aberto, ativou um worm. Thins worm anulou arquivos aleatórios e
-            enviou uma cópia de si mesmo para todos os endereços dentro do
-            Outlook.
+            do Windows foram infectados com o bug "I love You". O worm de
+            disseminação mais rápida da história naquela época. Esse ataque
+            generalizado por e-mail enviou um anexo que, quando aberto, ativa um
+            worm, que anula arquivos aleatórios e envia uma cópia de si mesmo
+            para todos os endereços dentro do Outlook.
           </p>
         </div>
       </div>
@@ -31,11 +30,11 @@
           <h1>2002</h1>
           <p>
             2002 foi um ano empolgante, não só o aguardado segundo filme de 'O
-            Senhor dos Anéis' foi realiado, mas também o ano de nascimento do
-            Departamento de Segurança Interna dos Estados Unidos. Desde o
-            início, eles designaram grupos para proteger a infraestrutura de TI
-            que hoje evoluiu para uma grande divisão dedicada exclusivamente à
-            segurança cibernética.
+            Senhor dos Anéis', mas também o ano de nascimento do Departamento de
+            Segurança Interna dos Estados Unidos. Desde o início, eles
+            designaram grupos para proteger a infraestrutura de TI que hoje
+            evoluiu para uma grande divisão dedicada exclusivamente à segurança
+            cibernética.
           </p>
         </div>
       </div>
@@ -44,13 +43,13 @@
         <div class="info">
           <h1>We are Anonymous</h1>
           <p>
-            Então nasceu o Anonymous, o primeiro infausto grupo de hackers
-            conhecido em todo o mundo. Este grupo tem uma vasta rede de usuários
-            sem aparentemente nenhum líder, muitas vezes agindo no interesse de
+            Então nasceu o Anonymous, o primeiro grupo de hackers conhecido em
+            todo o mundo. Este grupo tem uma vasta rede de usuários sem,
+            aparentemente, nenhum líder, muitas vezes agindo no interesse de
             proteger a privacidade das pessoas comuns. Um de seus roubos
             digitais mais notórios foi o hacking do site da Igreja da
-            Cientologia, com suas agora infames máscaras de Guy Fawkes
-            constantemente no local.
+            Cientologia, onde varias pessoas foram as ruas com suas máscaras de
+            Guy Fawkes.
           </p>
         </div>
       </div>
@@ -68,9 +67,10 @@
           <h1>Aurora</h1>
           <p>
             2010 viu a Operação Aurora. Este foi o ano em que o Google anunciou
-            uma violação coordenada de sua infraestrutura na China. Todo o seu
-            propósito, desmascarar agentes de inteligência da lista de
-            observação da agência de aplicação da lei dos EUA.
+            uma violação coordenada de sua infraestrutura na China. A google
+            declarou que planejava operar uma versao nao censurada na China, mas
+            a China viu isso como uma estrategia do governo americano de
+            espionagem.
           </p>
         </div>
       </div>
@@ -80,11 +80,11 @@
           <h1>Yahoo!!!</h1>
           <p>
             Em 2013, o Yahoo foi vítima de um dos maiores hacks da história,
-            quando mais de 3 bilhões de contas de usuários foram comprometidas.
-            Ao instalar malware diretamente nos servidores do Yahoo, os hackers
-            obtiveram acesso ilimitado, revelando uma ampla gama de informações
-            confidenciais. Isso pode ser visto como provavelmente a violação de
-            segurança mais infame de todos os tempos.
+            quando mais de 3 bilhões de contas foram comprometidas. Ao instalar
+            o malware diretamente nos servidores do Yahoo, os hackers obtiveram
+            acesso ilimitado, revelando uma ampla gama de informações
+            confidenciais. Isso pode ser visto como provavelmente uma das
+            maiores violaçoes de segurança de todos os tempos.
           </p>
         </div>
       </div>
@@ -93,11 +93,11 @@
         <div class="info">
           <h1>WikiLeaks</h1>
           <p>
-            WikiLeaks em 2016 foi o ano em que hackers da Agência de
-            Inteligência Russa publicaram documentos privados de e-mails de
-            comitês democráticos. Todo esse caso afetou dramaticamente o modo
-            como os americanos viam as eleicoes, se tornando um exemplo de como
-            o cibercrime poderia influenciar a politica internacional.
+            Em 2016 foi o ano em que hackers da Agência de Inteligência Russa
+            publicaram documentos privados de e-mails de comitês democráticos.
+            Todo esse caso afetou dramaticamente o modo como os americanos viam
+            as eleicoes, se tornando um exemplo de como o cibercrime poderia
+            influenciar a politica internacional.
           </p>
         </div>
       </div>

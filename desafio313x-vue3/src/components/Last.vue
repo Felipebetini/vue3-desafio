@@ -3,13 +3,13 @@
     <div class="divText1 container-fluid">
       <p class="text1 container-fluid">
         Hoje, o cibercrime parece fazer parte da vida cotidiana. Ao longo das
-        décadas, vimos worms se transformarem em vírus, viroses inspiram
-        software de segurança cibernética para o consumidor, o nascimento de
-        grupos ativistas e nações que realizam esforços coordenados de crimes
-        cibernéticos inteiros Antes, os limites estavam sendo testados para fins
-        de pesquisa acadêmica; hoje, hacks ameaçam eleições democráticas
-        inteiras e ataques patrocinados pelo Estado se tornaram um pilar das
-        manchetes globais.
+        décadas, vimos worms se transformarem em vírus, virus, estes, que
+        inspiram softwares de segurança cibernética para o consumidor. Des do
+        nascimento de grupos ativistas a nações que realizam esforços
+        coordenados de crimes cibernéticos inteiros. Antes, os limites estavam
+        sendo testados para fins de pesquisa acadêmica, hoje, hacks ameaçam
+        eleições democráticas inteiras e ataques patrocinados pelo Estado se
+        tornaram um pilar das manchetes globais.
       </p>
     </div>
     <transition
@@ -21,11 +21,11 @@
           Se o passado nos ensinou alguma coisa, é que os cibercriminosos estão
           crescendo e evoluindo tão exponencialmente quanto a própria Internet,
           e é apenas uma questão de tempo até que os ciberataques exponham ainda
-          mais tecnologias emergentes como IA e aprendizado de máquina
-          Infelizmente, temos um longo caminho a percorrer antes de viver em um
-          mundo de segurança cibernética, e isso provavelmente requer mais
-          pesquisas e esforços para reduzir o crime cibernético e minimizar os
-          efeitos sempre que possível.
+          mais tecnologias emergentes como IA e machine learning. Infelizmente,
+          temos um longo caminho a percorrer antes de viver em um mundo de
+          segurança cibernética, e isso provavelmente requer mais pesquisas e
+          esforços para reduzir o crime cibernético e minimizar os efeitos
+          sempre que possível.
         </p>
       </div>
     </transition>
@@ -36,7 +36,7 @@
       <div class="contato container-fluid" v-show="contato">
         <h1>Voce pode se proteger tambem!</h1>
         <p>
-          Se você ou sua empresa estão sendo hackeados ou sofraram qualquer tipo
+          Se você ou sua empresa estão sendo hackeados ou sofreram qualquer tipo
           de ataque cibernético entre em contato conosco clicando abaixo!
         </p>
       </div>
